@@ -23,6 +23,7 @@ public class CountingMonetaryUnits {
 		
 		int totalnickel = remainingcent / 5;
 		System.out.println("The number of nickels is: " + totalnickel);
+		
 		int totalpenny = remainingcent % 5;
 		System.out.println("The number of pennies is: " + totalpenny);
 		
