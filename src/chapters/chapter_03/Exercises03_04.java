@@ -4,7 +4,7 @@ public class Exercises03_04 {
 
 	public static void main(String[] args) {
 		int x = (int)((Math.random() * 12) + 1);
-		System.out.println(x);
+		
 		
 		if (x == 1) 
 			System.out.println("january");

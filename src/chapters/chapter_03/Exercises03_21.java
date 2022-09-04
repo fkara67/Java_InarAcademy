@@ -11,11 +11,19 @@ public class Exercises03_21 {
 		
 		System.out.println("Enter month: 3-12:(january and february are counted as months 13 and 14 of the previous year");
 		int month = input.nextInt();
+		if (month == 1) {
+			year = year - 1;
+			month = 13;  }
+		
+		if (month == 2) {
+			year = year -1;
+			month = 14;
+		}
 		
 		System.out.println("Enter the day of the month: 1-31: ");
 		int dayOfMonth = input.nextInt();
 		
-		int dayOfWeek = ((dayOfMonth + (26 * (month + 1)) / 10) + (year % 100) + ((year % 100) / 4) + ((year / 100) / 4) + (5 * (year / 100))) % 7;
+		int dayOfWeek = (dayOfMonth + 26 * (month + 1) / 10 + (year % 100) + ((year % 100) / 4) + ((year / 100) / 4) + (5 * (year / 100))) % 7;
 		
 		if (dayOfWeek == 0)
 			System.out.println("Day of week is Saturday");

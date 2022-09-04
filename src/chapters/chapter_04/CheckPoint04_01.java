@@ -6,7 +6,7 @@ public class CheckPoint04_01 {
 		
 		System.out.println(Math.sqrt(4));
 		System.out.println((int)(Math.sin(2 * Math.PI)));
-		System.out.println((int)(Math.cos(2 * Math.PI)));  //the answer is wrong.
+		System.out.println((int)(Math.cos(2 * Math.PI))); 
 		System.out.println(Math.pow(2, 2));
 		System.out.println(Math.log(Math.E)); 
 		System.out.println(Math.exp(1));

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercises03_15 {
 
 	public static void main(String[] args) {
-		int lottery = (int)(Math.random() * 1000);
+		int lottery = (int)(Math.random() * 900 + 100);
 		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter your lottery pick (three digits): ");

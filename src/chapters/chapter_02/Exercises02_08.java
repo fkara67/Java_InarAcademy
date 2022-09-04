@@ -6,6 +6,7 @@ public class Exercises02_08 {
 	Scanner input= new Scanner(System.in);
 	System.out.println("Enter the time zone offset to GMT: ");
 	long zoneOffset = input.nextInt();
+	
 	long totalMilliseconds = System.currentTimeMillis();
 	long totalSeconds = totalMilliseconds / 1000;
 	long currentSecond = totalSeconds % 60;

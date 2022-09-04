@@ -14,7 +14,7 @@ public class Exercises03_02 {
 		
 		int answer = input.nextInt();
 		
-		System.out.println(number1 + "+" + number2 + "+" + number3 + "=" + answer + " is " + (number1 + number2 + number3 == answer) );
+		System.out.println(number1 + "+" + number2 + "+" + number3 + "=" + answer + " is " + (number1 + number2 + number3 == answer));
 		
 		
 		
