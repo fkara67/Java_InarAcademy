@@ -6,22 +6,22 @@ public class Exercises03_08 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter three different integers: ");
-		int integer1 = input.nextInt();
-		int integer2 = input.nextInt();
-		int integer3 = input.nextInt();
+		int int1 = input.nextInt();
+		int int2 = input.nextInt();
+		int int3 = input.nextInt();
 		
-		if (integer1 < integer2 && integer2 < integer3)
-			System.out.println(integer1 + "<" + integer2 + "<" + integer3 );
-		if(integer2 < integer1 && integer1 < integer3)
-			System.out.println(integer2 + "<" + integer1 + "<" + integer3);
-		if (integer3 < integer2 && integer2 < integer1)
-			System.out.println(integer3 + "<" + integer2 + "<" + integer1);
-		if (integer1 < integer3 && integer3 < integer3)
-			System.out.println(integer1 + "<" + integer3 + "<" + integer2);
-		if (integer2 < integer3 && integer3 < integer1)
-			System.out.println(integer2 + "<" + integer3 + "<" + integer1);
-		if (integer3 < integer1 && integer1 < integer2)
-			System.out.println(integer3 + "<" + integer1 + "<" + integer2);
+		if (int1 < int2 && int2 < int3)
+			System.out.println(int1 + "<" + int2 + "<" + int3 );
+		if(int2 < int1 && int1 < int3)
+			System.out.println(int2 + "<" + int1 + "<" + int3);
+		if (int3 < int2 && int2 < int1)
+			System.out.println(int3 + "<" + int2 + "<" + int1);
+		if (int1 < int3 && int3 < int3)
+			System.out.println(int1 + "<" + int3 + "<" + int2);
+		if (int2 < int3 && int3 < int1)
+			System.out.println(int2 + "<" + int3 + "<" + int1);
+		if (int3 < int1 && int1 < int2)
+			System.out.println(int3 + "<" + int1 + "<" + int2);
 		else
 			System.out.println("you entered incorrectly.It must be three different integers. ");
 		

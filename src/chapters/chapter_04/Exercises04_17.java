@@ -14,11 +14,11 @@ public class Exercises04_17 {
 		String month = input.next();
 		
 	    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-	    	if (month == "Feb")
+	    	if (month.equals("Feb"))
 	    		System.out.println(month + " " + year + " has 29 days.");
-	    	else 
-	    		System.out.println(month + " " + year + " has 29 days.");
-	    }
+	    	}
+	    else if (month.equals("Feb"))
+	    	System.out.println(month + " " + year + " has 28 days.");
 	    switch(month) {
 	    case "Apr":
 	    case "Jun":

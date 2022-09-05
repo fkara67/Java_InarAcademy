@@ -23,15 +23,16 @@ public class Exercises04_23 {
 		double federalWitholding = grossPay * federalTaxRate;
 		double stateWitholding = grossPay * stateTaxRate;
 		double totaldeduction = federalWitholding + stateWitholding;
-		System.out.println("Employee Name: " + name);
-		System.out.println("Hours Worked: " + hours);
-		System.out.println("Pay Rate: $" + PayRate);
-		System.out.println("Gross Pay: $" + grossPay);
-		System.out.println("Deductions: ");
-		System.out.println("   Federal Withholding (%" + federalTaxRate * 100 + "): " + "$" + federalWitholding);
-		System.out.println("   State Withholding (%" + stateTaxRate * 100 + "): " + "$" + stateWitholding);
-		System.out.println("   Total Deduction: $" + (federalWitholding + stateWitholding));
-		System.out.println("Net Pay: $" + (grossPay - totaldeduction));
+		System.out.println(
+		    "Employee Name: " + name + 
+		    "\nHours Worked: " + hours + 
+		    "\nPay Rate: $" + PayRate +
+		    "\nGross Pay: $" + grossPay +
+		    "\nDeductions: " + 
+		    "\n   Federal Withholding (%" + federalTaxRate * 100 + "): " + "$" + federalWitholding + 
+		    "\n   State Withholding (%" + stateTaxRate * 100 + "): " + "$" + stateWitholding + 
+		    "\n   Total Deduction: $" + (federalWitholding + stateWitholding) + 
+		    "\nNet Pay: $" + (grossPay - totaldeduction)    );
 		    
 		
 	}
