@@ -40,5 +40,5 @@ public class SubtractionQuizLoop {
 		 System.out.println("\nCorrect count is " + correctCount + "\nTest time is " + testTime / 1000 + "seconds\n" + output);
 		 
 	}
-
+       	int i = math.to
 }
