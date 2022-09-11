@@ -62,6 +62,20 @@ public class Deneme {
 		System.out.println(t);
 		int e = d1.lastIndexOf("abc");
 		System.out.println(e);
+		
+		double amount = 12618.98;
+		double interestRate = 0.0013;
+		double interest = amount * interestRate;
+		System.out.printf("Interest is $%4.2f",
+		 interest);
+		
+		//CheckPoint04_24
+		System.out.printf(" amount is %f %e\n", 32.32, 32.32);
+		
+		System.out.printf("%6b\n", (1 > 2));
+		System.out.printf("%6s\n", "Java");
+		System.out.printf("%-6b%s\n", (1 > 2), "Java");
+		System.out.printf("%6b%-8s\n", (1 > 2), "Java");
 	}
 
 }
