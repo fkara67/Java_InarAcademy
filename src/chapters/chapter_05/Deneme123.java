@@ -5,19 +5,19 @@ package chapters.chapter_05;
 public class Deneme123 {
 
 	public static void main(String[] args) {
-		// Create constant value for number of pounds per kilogram
-		final double POUNDS_PER_KILOGRAM = 2.2;
+		final double KILOMETERS_PER_MILE = 1.609;
 
 		// Display table header
 		System.out.println(
-			"Kilograms    Pounds     |     Pounds      Kilograms");
-		for (int k = 1, p = 20; k <= 199 && p <= 515; k += 2, p += 5) {
+			"Miles      Kilometers   |   Kilometers     Miles     ");
+
+		// Create and display tables
+		for (int m = 1, k = 20; m <= 10 && k <= 65; m++, k += 5) {
 			System.out.printf(
-				"%-12d%7.1f", k, (k * POUNDS_PER_KILOGRAM));
-			System.out.print("     |     ");
+				"%-11d%-10.3f", m, (m * KILOMETERS_PER_MILE));
+			System.out.print("   |   ");
 			System.out.printf(
-				"%-9d%12.2f\n",
-				p, (p / POUNDS_PER_KILOGRAM));
+				"%-15d%-6.3f\n", k, (k / KILOMETERS_PER_MILE));
 		}
 	}
 }
