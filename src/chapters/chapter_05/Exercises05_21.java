@@ -12,15 +12,20 @@ public class Exercises05_21 {
 
 		System.out.println("Enter number of years: ");
 		int years = input.nextInt();
-		double annualInterestRate = 0 ;
-		double monthlyInterestRate = annualInterestRate / 1200;
+		
+		
 		System.out.println("Interest Rate\t Monthly Payment\t Total Payment");
-		for ( annualInterestRate = 5.000; annualInterestRate <= 8.000; annualInterestRate += 0.125) {
-			double monthlyPayment = loan * monthlyInterestRate / 
-					(1 - 1 / Math.pow(1 + monthlyInterestRate, years * 12));
-			double totalPayment = monthlyPayment * years * 12;
-			System.out.printf("%-8.3f\t %-20.2f\t %-20.2f\n", annualInterestRate,monthlyPayment,totalPayment);
-		}
+		for (double annualInterestRate = 5.000; annualInterestRate <= 8.000; annualInterestRate += 0.125) {
+			double monthlyInterestRate = annualInterestRate / 1200;
+			double monthlyPayment = loan * monthlyInterestRate / (1
+					- 1 / Math.pow(1 + monthlyInterestRate, years * 12));
+			double totalPayment = (monthlyPayment * years) * 12;
+			System.out.printf("%-5.3f", annualInterestRate);
+			System.out.print("%         ");
+			System.out.printf("  %-19.2f\t",monthlyPayment );
+			System.out.printf(" %-8.2f\n",totalPayment);
+			
+		}	
 	}
 
 }
