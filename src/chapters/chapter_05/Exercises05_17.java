@@ -12,7 +12,7 @@ public class Exercises05_17 {
 		if (number >= 1 && number <= 15) {
 			for (int row = 1; row <= number; row++) {
 				for (int whiteSpace = (number - row); whiteSpace > 0; whiteSpace--) {
-					System.out.print("   ");
+					System.out.print(" - ");
 				}
 				for (int part2 = row; part2 >= 1; part2--) {
 					System.out.print("  " + part2);
