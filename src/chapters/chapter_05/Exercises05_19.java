@@ -10,7 +10,7 @@ public class Exercises05_19 {
 		for(int row = 0; row <= 7; row++) {
 			
 			for (int white = 1 ; white <= 7 - row ; white++) {
-				System.out.printf("%4s"," - ");
+				System.out.printf("%4s","   ");
 			}
 			
 			for (int part1 = 0; part1 <= row; part1++) {

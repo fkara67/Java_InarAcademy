@@ -6,7 +6,7 @@ public class Exercises03_09 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter the first 9 digits of an ISBN as integer leaving a space between: ");
+		System.out.println("Enter the first 9 digits of an ISBN as integer: ");
 		int first9Digit = input.nextInt();
 		
 		int digit1 = first9Digit / 100_000_000;
