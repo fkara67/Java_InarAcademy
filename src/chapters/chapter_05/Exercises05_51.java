@@ -20,11 +20,16 @@ public class Exercises05_51 {
 		for (int i = 0; i < s1.length(); i++) {
 			if (s1.charAt(i) == s2.charAt(i)) {
 				common += s1.charAt(i);
+
 			}
 
 		}
-		System.out.println("The common prefix is \"" + common + "\"");
+		if (common == "") {
+			System.out.println(s1 + " and " + s2 + " have no common prefix");
 
+		} else {
+			System.out.println("The common prefix is \"" + common + "\"");
+		}
 	}
 
 }
