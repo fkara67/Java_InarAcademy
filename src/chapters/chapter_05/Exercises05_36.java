@@ -2,8 +2,6 @@ package chapters.chapter_05;
 
 import java.util.Scanner;
 
-import javax.print.DocFlavor.STRING;
-
 public class Exercises05_36 {
 
 	public static void main(String[] args) {
@@ -18,10 +16,9 @@ public class Exercises05_36 {
 			checksum = inside % 11;
 		}
 		if (checksum == 10) {
-			 iSBN10 = first9 + "X";
-			
-		}
-		else
+			iSBN10 = first9 + "X";
+
+		} else
 			iSBN10 = first9 + checksum;
 		System.out.println("The ISBN-10 number is " + iSBN10);
 	}
