@@ -100,7 +100,8 @@ public class Exercises05_29 {
 					"\n           ---------------------------------------------------\n");
 			System.out.println("       \tSun\tMon\tTue\tWed\tThu\tFri\tSat");
 			for (int j = 0; j < inputDay; j++) {
-				System.out.print("    ");
+				
+				System.out.printf("     ");
 				count++;
 			}
 	
