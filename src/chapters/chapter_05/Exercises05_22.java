@@ -30,7 +30,7 @@ public class Exercises05_22 {
 			
 			double interest = monthlyInterestRate * balance;
 			double principal = monthlyPayment - interest;
-			balance -=principal;
+			balance -= principal;
 			
 			System.out.printf("%-10d\t %-9.2f\t%7.2f\t\t%8.2f\n",month, interest,principal,balance);
 			

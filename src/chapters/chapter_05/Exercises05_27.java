@@ -17,6 +17,7 @@ public class Exercises05_27 {
 				}
 			}
 		}
+		System.out.println("\n\nCount of the leap years from 101 to 2100 is " + count);
 	}
 
 }

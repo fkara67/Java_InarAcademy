@@ -11,7 +11,7 @@ public class Exercises05_29 {
 		System.out.println("Enter first day of the year(sunday-0 and monday-1): ");
 		int inputDay = input.nextInt();
 		int dayNameNumber = inputDay;
-		String firstDayName = "";
+		
 		String nameOfMonth = "";
 		int numberOfDay = 0;
 		boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);

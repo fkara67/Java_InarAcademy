@@ -5,24 +5,21 @@ import java.util.Scanner;
 public class Deneme123 {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		int sum = 0;
+		int i = 0;
+		while (i < 4) {
+		if (i % 3 == 0) {
+			i++;
+		 continue;
+		 
+		}
+		 sum += i;
+		 i++;
+		}
+		System.out.println("i = " + i);
+		System.out.println("sum = " + sum);
 		
-		String s = "12345";
-		char ch = s.charAt(0);
-
-
-		String k = "abcd";
-		char b = Character.toUpperCase(k.charAt(1));
-
-		
-		System.out.println(b);
-		
-		char a = 'a';
-		Character.toUpperCase(a);
-		System.out.println(a);
-
 	
-
 	
 
 		
